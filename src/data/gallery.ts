@@ -50,7 +50,7 @@ export const galleryPhotos: GalleryPhoto[] = [
       ru: "Молодые слонята резвятся у берега под теплым утренним солнцем.",
       de: "Junge Elefanten spielen im Flusslauf unter der Morgensonne.",
     },
-    src: "https://images.unsplash.com/photo-1551085254-e96b210df58a?auto=format&fit=crop&w=1000&q=80",
+    src: "https://images.unsplash.com/photo-1549366021-9f761d450615?auto=format&fit=crop&w=1000&q=80",
   },
   {
     id: "g4",
