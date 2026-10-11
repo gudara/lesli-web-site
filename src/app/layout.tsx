@@ -7,7 +7,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "PINNAWALA ELEPHANT TOUR | Luck Uyana Cabana & Pinnawala Reach (Pinnawala, Sri Lanka)",
+  title: "PINNAWALA ELEPHANT TOUR | Pinnawala, Sri Lanka",
   description:
     "Experience respectful daily elephant routines along the Maha Oya river, stay in 4 private luxury cabanas at Luck Uyana or 7 boutique rooms at Pinnawala Reach, and explore our living Ayurveda herbal medicine sanctuary in Sri Lanka.",
   keywords: [

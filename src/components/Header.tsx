@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Language, translations } from "@/data/translations";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X, Compass } from "lucide-react";
 
 interface HeaderProps {
   currentLang: Language;
@@ -47,12 +47,9 @@ export const Header: React.FC<HeaderProps> = ({
         id="site-header"
       >
         <div className="container header-container">
-          {/* Calm & Prominent Brand Title */}
-          {/* Accommodations Logo Link */}
-          <a href="#hero" className="brand-logo-wrap" aria-label="Luck Uyana Cabana & Pinnawala Reach">
-            <span className="brand-text-sub" style={{ fontSize: "0.85rem", letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--gold-light)", fontWeight: 600 }}>
-              Luck Uyana Cabana & Pinnawala Reach
-            </span>
+          {/* Minimalist Emblem / Home Link */}
+          <a href="#hero" className="brand-logo-wrap" aria-label="Home" style={{ display: "flex", alignItems: "center" }}>
+            <Compass size={22} style={{ color: "var(--gold-light)" }} />
           </a>
 
           {/* Clean, Spacious Navigation */}
@@ -126,12 +123,10 @@ export const Header: React.FC<HeaderProps> = ({
 
       <div className={`mobile-drawer ${mobileMenuOpen ? "open" : ""}`}>
         <div>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "2.5rem" }}>
-            <div>
-              <div style={{ fontSize: "0.85rem", fontWeight: 600, letterSpacing: "0.06em", color: "var(--gold-light)", textTransform: "uppercase" }}>
-                Luck Uyana Cabana & Pinnawala Reach
-              </div>
-            </div>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "2rem" }}>
+            <a href="#hero" onClick={() => setMobileMenuOpen(false)} aria-label="Home" style={{ display: "flex", alignItems: "center" }}>
+              <Compass size={22} style={{ color: "var(--gold-light)" }} />
+            </a>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}

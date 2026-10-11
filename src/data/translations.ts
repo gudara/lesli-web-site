@@ -172,7 +172,7 @@ export const translations: Record<Language, TranslationData> = {
     hero: {
       kicker: "Pinnawala, Sri Lanka",
       mainTitle: "PINNAWALA ELEPHANT TOUR",
-      subtitle: "Authentic Elephant Routines • Luck Uyana Cabana & Pinnawala Reach",
+      subtitle: "Authentic Elephant Routines • Serene Riverfront Stays & Dining",
       description:
         "Welcome to Pinnawala's premier elephant sanctuary base. Enjoy peaceful daily river routines along the Maha Oya, secluded private cabanas at Luck Uyana, river-facing rooms at Pinnawala Reach, our authentic Sri Lankan restaurant, and ancient Ayurvedic wellness.",
       planTrip: "Plan Your Visit",
@@ -371,7 +371,7 @@ export const translations: Record<Language, TranslationData> = {
     hero: {
       kicker: "Пиннавела, Шри-Ланка",
       mainTitle: "PINNAWALA ELEPHANT TOUR",
-      subtitle: "Этичный распорядок слонов • Luck Uyana Cabana и Pinnawala Reach",
+      subtitle: "Этичный распорядок слонов • Умиротворенный отдых у реки и ресторан",
       description:
         "Главный комплекс для отдыха в Пиннавеле. Наблюдение за купанием слонов в реке Маха Оя, уединенные эко-кабаны Luck Uyana, стильные номера Pinnawala Reach, ресторан аутентичной кухни и сад Аюрведы.",
       planTrip: "Спланировать отдых",
@@ -570,7 +570,7 @@ export const translations: Record<Language, TranslationData> = {
     hero: {
       kicker: "Pinnawala, Sri Lanka",
       mainTitle: "PINNAWALA ELEPHANT TOUR",
-      subtitle: "Artgerechter Elefantenalltag • Luck Uyana Cabana & Pinnawala Reach",
+      subtitle: "Artgerechter Elefantenalltag • Ruhiger Aufenthalt am Fluss & Restaurant",
       description:
         "Pinnawalas erste Adresse für achtsame Elefantenbegegnungen am Fluss Maha Oya. Wohnen Sie in den privaten Natur-Cabanas von Luck Uyana oder modernen Zimmern im Pinnawala Reach mit authentischem Restaurant und Ayurveda-Garten.",
       planTrip: "Besuch planen",
