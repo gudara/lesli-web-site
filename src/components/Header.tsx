@@ -48,11 +48,11 @@ export const Header: React.FC<HeaderProps> = ({
       >
         <div className="container header-container">
           {/* Calm & Prominent Brand Title */}
-          <a href="#hero" className="brand-logo-wrap" aria-label="PINNAWALA ELEPHANT TOUR">
-            <div>
-              <div className="brand-text-title">PINNAWALA ELEPHANT TOUR</div>
-              <div className="brand-text-sub">Luck Uyana Cabana & Pinnawala Reach</div>
-            </div>
+          {/* Accommodations Logo Link */}
+          <a href="#hero" className="brand-logo-wrap" aria-label="Luck Uyana Cabana & Pinnawala Reach">
+            <span className="brand-text-sub" style={{ fontSize: "0.85rem", letterSpacing: "0.06em", textTransform: "uppercase", color: "var(--gold-light)", fontWeight: 600 }}>
+              Luck Uyana Cabana & Pinnawala Reach
+            </span>
           </a>
 
           {/* Clean, Spacious Navigation */}
@@ -128,10 +128,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "2.5rem" }}>
             <div>
-              <div style={{ fontSize: "1.15rem", fontWeight: 700, letterSpacing: "0.04em", color: "#ffffff" }}>
-                PINNAWALA ELEPHANT TOUR
-              </div>
-              <div style={{ fontSize: "0.75rem", color: "var(--gold-light)", marginTop: "2px" }}>
+              <div style={{ fontSize: "0.85rem", fontWeight: 600, letterSpacing: "0.06em", color: "var(--gold-light)", textTransform: "uppercase" }}>
                 Luck Uyana Cabana & Pinnawala Reach
               </div>
             </div>
