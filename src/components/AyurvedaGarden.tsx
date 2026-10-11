@@ -20,7 +20,7 @@ export const AyurvedaGarden: React.FC<AyurvedaGardenProps> = ({ currentLang }) =
           <p className="section-subtitle">{t.ayurveda.subtitle}</p>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3.5rem", alignItems: "center" }}>
+        <div className="ayurveda-layout">
           {/* Garden Image */}
           <div style={{ borderRadius: "16px", overflow: "hidden", border: "1px solid var(--border-clean)", maxHeight: "460px" }}>
             <img

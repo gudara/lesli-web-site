@@ -103,7 +103,7 @@ export const Accommodations: React.FC<AccommodationsProps> = ({
             </div>
 
             {/* Action Buttons */}
-            <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+            <div className="stay-card-actions" style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
               <button
                 type="button"
                 className="btn-gold-clean"

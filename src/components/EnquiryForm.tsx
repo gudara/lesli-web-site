@@ -277,7 +277,7 @@ export const EnquiryForm: React.FC<EnquiryFormProps> = ({
               <span>{t.booking.consentText}</span>
             </label>
 
-            <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap", alignItems: "center" }}>
+            <div className="form-actions-clean">
               <button
                 type="submit"
                 className="btn-gold-clean"
